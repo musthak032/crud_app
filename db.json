@@ -1,0 +1,74 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "mohamed musthak.A",
+      "email": "musthak0032@gmail.com",
+      "phone": "+918754038535",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "mohamed rifnas",
+      "email": "mohamedrifnas032@gmail.com",
+      "phone": "7845831410",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "mohamed a",
+      "email": "mohamedrifnas032@gmail.com",
+      "phone": "7845831410",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "mohamed b",
+      "email": "mohamedrifnas032@gmail.com",
+      "phone": "7845831410",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "mohamed c",
+      "email": "mohamedrifnas032@gmail.com",
+      "phone": "7845831410",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "mohamed d",
+      "email": "mohamedrifnas032@gmail.com",
+      "phone": "7845831410",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "mohamed e",
+      "email": "mohamedrifnas032@gmail.com",
+      "phone": "7845831410",
+      "active": true
+    },
+    {
+      "id": 8,
+      "name": "mohamed f",
+      "email": "mohamedrifnas032@gmail.com",
+      "phone": "7845831410",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "mohamed g",
+      "email": "mohamedrifnas032@gmail.com",
+      "phone": "7845831410",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "mohamed h",
+      "email": "mohamedrifnas032@gmail.com",
+      "phone": "7845831410",
+      "active": true
+    }
+  ]
+}

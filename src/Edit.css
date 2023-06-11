@@ -1,0 +1,100 @@
+.card.employee-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card.employee-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-header {
+    margin-bottom: 16px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4285f4;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .employee-details {
+    margin-bottom: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .employee-info-detail {
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .form-control {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  
+  .form-check {
+    margin-bottom: 16px;
+  }
+  
+  .form-check-input {
+    margin-right: 8px;
+  }
+  
+  .form-check-label {
+    font-size: 16px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary {
+    background-color: #4285f4;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3367d6;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(66, 133, 244, 0.5);
+  }
+  
+  .btn-primary:active {
+    background-color: #3367d6;
+  }
+  
+  
