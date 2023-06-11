@@ -1,7 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://musthak032.github.io/crud-app",
-  "version": "0.1.0",
+  "homepage": "https://github.com/musthak032/crud_app.",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -27,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/musthak032/crud-app.git"
+    "url": "git+https://github.com/musthak032/crud_app.git"
   },
   "eslintConfig": {
     "extends": [
@@ -49,7 +48,7 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "bugs": {
-    "url": "https://github.com/musthak032/crud-app/issues"
+    "url": "https://github.com/musthak032/crud_app/issues"
   },
   "main": "index.js",
   "devDependencies": {},
