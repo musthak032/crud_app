@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/musthak032/crud_app./static/css/main.941eead5.css",
-    "main.js": "/musthak032/crud_app./static/js/main.3001265d.js",
-    "static/js/787.28cb0dcd.chunk.js": "/musthak032/crud_app./static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/musthak032/crud_app./index.html",
-    "main.941eead5.css.map": "/musthak032/crud_app./static/css/main.941eead5.css.map",
-    "main.3001265d.js.map": "/musthak032/crud_app./static/js/main.3001265d.js.map",
-    "787.28cb0dcd.chunk.js.map": "/musthak032/crud_app./static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/crud_app/static/css/main.941eead5.css",
+    "main.js": "/crud_app/static/js/main.305c3ae0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/crud_app/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/crud_app/index.html",
+    "main.941eead5.css.map": "/crud_app/static/css/main.941eead5.css.map",
+    "main.305c3ae0.js.map": "/crud_app/static/js/main.305c3ae0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/crud_app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.941eead5.css",
-    "static/js/main.3001265d.js"
+    "static/js/main.305c3ae0.js"
   ]
 }
