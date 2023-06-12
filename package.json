@@ -1,6 +1,7 @@
 {
   "name": "my-app",
-  "homepage": "https://github.com/musthak032/crud_app.",
+ 
+  "homepage": "https://musthak032.github.io/crud_app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
