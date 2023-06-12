@@ -16,7 +16,9 @@ const Home = () => {
   const [alldata, setalldata] = useState(null);
 
   const LoadDetail = (id) => {
-    navigate("/detail/" + id);
+
+   
+    navigate("/crud_app/detail/" + id);
   };
   const handlepageclick = async (data) => {
     console.log("clicked " + data.selected);
@@ -37,7 +39,7 @@ const Home = () => {
           window.location.reload();
         })
         .then((resp) => {
-          navigate("/");
+          navigate("/crud_app");
         })
         .catch((err) => {
           console.log(err.message);
@@ -45,7 +47,7 @@ const Home = () => {
     }
   };
   const LoadEdit = (id) => {
-    navigate("/edit/" + id);
+    navigate("/crud_app/Edit/" + id);
   };
 
   useEffect(() => {
@@ -110,7 +112,7 @@ const Home = () => {
       
 
         <button className="bttn" type="submit">
-          <Link className=" bttn-text" to="create">
+          <Link className=" bttn-text" to="/crud_app/create">
             Add New (+)
           </Link>
         </button>

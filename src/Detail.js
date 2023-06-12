@@ -8,7 +8,7 @@ const Detail = () => {
   const [empdata, setempdata] = useState({});
   useEffect(() => {
    // fetch("http://localhost:3001/employee/" + detailid)
-   
+   detailid&&
     fetch("https://employee-data-bat9.onrender.com/employee/" + detailid)
       .then((res) => {
         return res.json();
@@ -58,7 +58,7 @@ const Detail = () => {
     
     
       
-      <Link to="/">
+      <Link to="/crud_app">
       <button className="btn btn-primary">
           Back to Home
          </button>

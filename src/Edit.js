@@ -50,7 +50,7 @@ const Edit = () => {
         alert("Saved successfully.");
       })
       .then((resp) => {
-        navigate("/");
+        navigate("/crud_app");
       })
       .catch((err) => {
         console.log(err.message);
@@ -146,7 +146,7 @@ const Edit = () => {
               <button className="btn btn-primary" type="submit">
                 Save
               </button>
-              <Link to="/">
+              <Link to="/curd_app">
                 <button className="btn btn-primary" type="submit">
                   Back
                 </button>

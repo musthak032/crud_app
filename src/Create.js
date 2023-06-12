@@ -26,7 +26,7 @@ const Create = () => {
         alert("Saved successfully.");
       })
       .then((resp) => {
-        navigate("/");
+        navigate("/crud_app");
       })
       .catch((err) => {
         console.log(err.message);
@@ -114,7 +114,7 @@ const Create = () => {
               <button className="btn btn-primary" type="submit">
                 Save
               </button>
-              <Link to="/">
+              <Link to="/crud_app">
                 <button className="btn btn-primary" type="submit">
                   Back
                 </button>
