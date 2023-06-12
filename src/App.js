@@ -22,10 +22,10 @@ function App() {
       
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/create" element={<Create />}></Route>
-          <Route path="/detail/:detailid" element={<Detail />}></Route>
-          <Route path="/edit/:editid" element={<Edit />}></Route>
+          <Route path="/crud_app" element={<Home />}></Route>
+          <Route path="/crud_app/create" element={<Create />}></Route>
+          <Route path="/crud_app/detail/:detailid" element={<Detail />}></Route>
+          <Route path="/crud_app/edit/:editid" element={<Edit />}></Route>
 
         </Routes>
       </BrowserRouter>
