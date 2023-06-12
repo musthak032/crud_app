@@ -24,9 +24,9 @@ function App() {
         <Routes>
           <Route path="/crud_app" element={<Home />}></Route>
           <Route path="/crud_app/create" element={<Create />}></Route>
-          <Route path="/crud_app/detail:detailid" element={<Detail />}></Route>
+          <Route path="/crud_app/:detailid" element={<Detail />}></Route>
           
-          <Route path="edit/:editid" element={<Edit />}></Route>
+          <Route path="/crud_app/edit/:editid" element={<Edit />}></Route>
 
         </Routes>
       </BrowserRouter>

@@ -146,8 +146,8 @@ const Edit = () => {
               <button className="btn btn-primary" type="submit">
                 Save
               </button>
-              <Link to="/curd_app">
-                <button className="btn btn-primary" type="submit">
+              <Link to="/crud_app">
+                <button className="btn btn-primary" type="">
                   Back
                 </button>
               </Link>

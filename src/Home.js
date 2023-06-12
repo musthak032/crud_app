@@ -18,7 +18,7 @@ const Home = () => {
   const LoadDetail = (id) => {
 
    
-    navigate("/crud_app/detail/" + id);
+    navigate("/crud_app/" + id);
   };
   const handlepageclick = async (data) => {
     console.log("clicked " + data.selected);
@@ -47,7 +47,7 @@ const Home = () => {
     }
   };
   const LoadEdit = (id) => {
-    navigate("/crud_app/Edit/" + id);
+    navigate("/crud_app/edit/" + id);
   };
 
   useEffect(() => {
@@ -125,7 +125,7 @@ const Home = () => {
           {search.length !== 0
             ? alldata &&
               alldata
-                .filter((item) => item.name.toLowerCase().includes(search))
+                .filter((item) => item.name.toLowerCase().includes(search.toLowerCase()))
                 .map((item) => (
                   <div key={item.id}>
                     <AllEmployeeDataCard
